@@ -1,6 +1,6 @@
 # 📚 Nome do Projeto
 
-> *Substitua aqui pelo nome da sua API, como por exemplo: "API de Controle de Estoque - Loja XYZ"*
+ "API de Controle de Estoque - xxx"
 
 ## 🧾 Descrição
 

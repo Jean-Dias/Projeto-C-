@@ -1768,19 +1768,19 @@
     ]
   },
   "packageFolders": {
-    "/home/jean/.nuget/packages/": {}
+    "C:\\Users\\Guilherme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/jean/Documentos/c#/trabalho/trabalho.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme\\Projeto-C-\\trabalho.csproj",
       "projectName": "trabalho",
-      "projectPath": "/home/jean/Documentos/c#/trabalho/trabalho.csproj",
-      "packagesPath": "/home/jean/.nuget/packages/",
-      "outputPath": "/home/jean/Documentos/c#/trabalho/obj/",
+      "projectPath": "C:\\Users\\Guilherme\\Projeto-C-\\trabalho.csproj",
+      "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Guilherme\\Projeto-C-\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/jean/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Guilherme\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1847,16 +1847,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

@@ -1,16 +1,13 @@
-using System;
-using System.Collections.Generic;
-
 namespace trabalho
 {
     public class Fornecedor
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
-        public string Cnpj { get; set; }
-        public string Telefone { get; set; }
+        public string Nome { get; set; } = string.Empty;
+        public string Cnpj { get; set; } = string.Empty;
+        public string Telefone { get; set; } = string.Empty;
 
-        // A lista de produtos relacionados ao fornecedor
-        public List<Produto> Produtos { get; set; }
+        // Relacionamento: um fornecedor pode ter vários produtos
+        public List<Produto> Produtos { get; set; } = new();
     }
 }

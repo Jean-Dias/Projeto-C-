@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7NDh/5YPC+M=",
+  "dgSpecHash": "U8qf1DrZU08=",
   "success": true,
   "projectFilePath": "/home/jean/Documentos/c#/trabalho/trabalho.csproj",
   "expectedPackageFiles": [
@@ -41,12 +41,5 @@
     "/home/jean/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/jean/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  "logs": []
 }

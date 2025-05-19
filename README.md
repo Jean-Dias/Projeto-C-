@@ -6,7 +6,7 @@ Ela permite o cadastro e gerenciamento de produtos, fornecedores e pedidos de co
 Ideal para uso em pequenas mercearias que buscam uma solução simples e eficiente para manter o estoque atualizado.
 
 ## 👥 Integrantes da Dupla
-- Guilherme Candida de Amorim - [@guillcodes](https://github.com/guillcode)  
+- Guilherme Candida de Amorim - [@guillcodes](https://github.com/guillcodes)  
 - Jean Almeida - [@jean-dias](https://github.com/jean-dias)
 
 ## 🛠️ Tecnologias Utilizadas
@@ -28,7 +28,7 @@ Ideal para uso em pequenas mercearias que buscam uma solução simples e eficien
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/usuario/repositorio
+git clone https://github.com/Jean-Dias/Projeto-C-.git
 
 # 2. Acesse a pasta do projeto
 cd nome-da-pasta

@@ -207,5 +207,8 @@ app.MapDelete("/fornecedores/{id}", async (int id, EstoqueContext db) =>
         return Results.Problem($"Erro ao remover fornecedor: {ex.Message}", statusCode: 500);
     }
 });
+app.UseDefaultFiles(); // procura por index.html
+app.UseStaticFiles();  // serve arquivos da pasta wwwroot
+
 
 app.Run();

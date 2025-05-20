@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "xr8p/VRB88XYNFkfENA+3DBgNSaLsljAsDoO3vlhneg=",
+  "Hash": "IFazdrstwBD/kyZFoC3x1CF0KUXJxy8CbQIRyvA2xeY=",
   "Source": "trabalho",
   "BasePath": "_content/trabalho",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "trabalho\\wwwroot",
+      "Source": "trabalho",
+      "ContentRoot": "C:\\Users\\Guilherme\\Projeto-C-\\wwwroot\\",
+      "BasePath": "_content/trabalho",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Guilherme\\Projeto-C-\\wwwroot\\index.html",
+      "SourceId": "trabalho",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Guilherme\\Projeto-C-\\wwwroot\\",
+      "BasePath": "_content/trabalho",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
 }

@@ -136,3 +136,4 @@ C:\Users\Guilherme\Projeto-C-\obj\Debug\net8.0\refint\trabalho.dll
 C:\Users\Guilherme\Projeto-C-\obj\Debug\net8.0\trabalho.pdb
 C:\Users\Guilherme\Projeto-C-\obj\Debug\net8.0\trabalho.genruntimeconfig.cache
 C:\Users\Guilherme\Projeto-C-\obj\Debug\net8.0\ref\trabalho.dll
+C:\Users\Guilherme\Projeto-C-\bin\Debug\net8.0\trabalho.staticwebassets.runtime.json

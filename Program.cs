@@ -4,6 +4,17 @@ using trabalho;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar CORS - AllowAll
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 builder.Services.AddDbContext<EstoqueContext>(options =>
     options.UseSqlite("Data Source=produtos.db"));
 
@@ -17,6 +28,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Usar CORS
+app.UseCors("AllowAll");
 
 // PRODUTOS
 
@@ -207,8 +221,11 @@ app.MapDelete("/fornecedores/{id}", async (int id, EstoqueContext db) =>
         return Results.Problem($"Erro ao remover fornecedor: {ex.Message}", statusCode: 500);
     }
 });
+
 app.UseDefaultFiles(); // procura por index.html
 app.UseStaticFiles();  // serve arquivos da pasta wwwroot
 
+// Endpoint health check
+app.MapGet("/health", () => Results.Ok(new { status = "healthy", timestamp = DateTime.Now }));
 
 app.Run();

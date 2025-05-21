@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #000000;
+    padding: 2rem;
+}
+
+/* Título principal */
+h1 {
+    color: #3b82f6; /* azul */
+    margin-bottom: 1.5rem;
+}
+
+/* Formulários */
+form {
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: #555;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+form input:focus {
+    border-color: #3b82f6;
+    outline: none;
+}
+
+/* Botões */
+button {
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2563eb; /* azul mais escuro */
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #f0f0f0;
+    margin-bottom: 0.8rem;
+    padding: 0.8rem 1rem;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+
+/* Botões dentro da lista */
+li button {
+    margin-left: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+}
+
+li button:first-of-type {
+    background-color: #f59e0b; /* amarelo para editar */
+}
+
+li button:first-of-type:hover {
+    background-color: #d97706;
+}
+
+li button:last-of-type {
+    background-color: #ef4444; /* vermelho para excluir */
+}
+
+li button:last-of-type:hover {
+    background-color: #b91c1c;
+}
+
+/* Container para organizar formulários lado a lado */
+.container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    flex: 1 1 300px;
+}
+
+/* Para separar a seção de listagem */
+.section-lista {
+    margin-top: 1rem;
+}

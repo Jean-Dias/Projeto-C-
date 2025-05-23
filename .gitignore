@@ -1,0 +1,57 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto generated files
+*.db
+*.log
+*.vspscc
+
+# Visual Studio cache files
+.vs/
+
+# Rider project files
+.idea/
+
+# Resharper files
+_ReSharper*/
+
+# DotCover files
+*.dotCover
+
+# Files built by Visual Studio
+*.exe
+*.dll
+*.pdb
+
+# Publish output folder
+publish/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Node modules (if any frontend node packages used)
+node_modules/
+
+# Others
+*.cache
+*.zip
+*.tar.gz
+*.7z
+
+# NPM logs
+npm-debug.log*
+
+# JetBrains Rider local history
+.idea/
+
+# Visual Studio Code files
+.vscode/

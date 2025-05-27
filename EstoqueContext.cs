@@ -13,18 +13,17 @@ namespace trabalho
         {
             base.OnModelCreating(modelBuilder);
 
-            // Configura relacionamento Produto -> Fornecedor (muitos para um)
+            // Relacionamento Produto -> Fornecedor (muitos para um)
             modelBuilder.Entity<Produto>()
                 .HasOne(p => p.Fornecedor)
                 .WithMany(f => f.Produtos)
                 .HasForeignKey(p => p.FornecedorId)
-                .OnDelete(DeleteBehavior.Cascade); // remove os produtos ao excluir o fornecedor
+                .OnDelete(DeleteBehavior.Cascade);
 
-            // Garante que o CNPJ seja único
+            // CNPJ único
             modelBuilder.Entity<Fornecedor>()
                 .HasIndex(f => f.Cnpj)
                 .IsUnique();
         }
     }
 }
-

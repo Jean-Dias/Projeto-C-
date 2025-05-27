@@ -10,8 +10,8 @@ using trabalho;
 namespace trabalho.Migrations
 {
     [DbContext(typeof(EstoqueContext))]
-    [Migration("20250514220920_AddFornecedorIdToProduto")]
-    partial class AddFornecedorIdToProduto
+    [Migration("20250526232827_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,10 +30,6 @@ namespace trabalho.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Telefone")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
